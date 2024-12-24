@@ -1,3 +1,9 @@
+import { Navbar } from "./sections/Navbar";
+
 export const App = () => {
-  return <div className="text-white">App</div>;
+  return (
+    <main className="max-w-7xl mx-auto relative">
+      <Navbar />
+    </main>
+  );
 };
